@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>手書き文字識別</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="/static/js/app.js"></script>
+    <link rel="stylesheet" href="/static/css/app.css">
+  </head>
+  <body onload="mam_draw_init();">
+    <div align="center">
+      <h1>手書き文字認識(0~9)</h1>
+      <!-- 描画エリアを表示 -->
+      <div class="canvas" id="candiv">
+          <canvas id="can" width="420px" height="420px"></canvas>
+      </div>
+      <!-- クリアボタンと予測するボタン -->
+      <form action="/" method="post">
+          <button type="button" onClick="clearCan();" value="a" class="clear-button">クリア</button>
+          <button type="button" id="img" name="img" onClick="sendImage();" value="予測する" class="send-button">予測する</button>
+      </form>
+      <!-- 各数字に対する精度の表 -->
+      <div id="table"></div>
+      <!-- 回答を表示 -->
+      <div id="answer"></div>
+    </div>
+  </body>
+</html>

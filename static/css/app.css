@@ -1,0 +1,52 @@
+.canvas {
+    border: solid 1px black;
+    width: 420px;
+    height: 420px;
+}
+
+.clear-button {
+    width: 100px;
+    height: 30px;
+    background-color: #e7e7e7;
+    color:black;
+    margin: 5px 0;
+    border: solid;
+    outline: none;
+    font-weight: bold;
+}
+
+.clear-button:active{
+    border:1px solid;
+    background-color: gray;
+}
+
+.send-button {
+    width: 100px;
+    height: 30px;
+    background-color: #e7e7e7;
+    color: black;
+    margin: 5px 0;
+    border: solid;
+    outline: none;
+    font-weight: bold;
+}
+
+.send-button:active{
+    border:1px solid;
+    background-color: gray;
+}
+
+td {
+    border: solid 2px;
+    color: white;
+    border-color: black;
+}
+
+table {
+    background-color: blue;
+}
+
+.answer {
+    color: red;
+    font-size: 20px;
+}
