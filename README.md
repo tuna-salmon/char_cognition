@@ -38,12 +38,12 @@ pip install huga_package
  
 pycharmで動作確認したので、pycharmでの実行方法を記述します。
 
-1 anaconda promptで仮想環境を作成
-1 Requirementに書いたものを入れる
-1 pycharmで新しいプロジェクト作成
-1 venvの配下にソースをgit clone
-1 settingsを開いてpythonインタプリタを先ほど作った仮想環境のものにする
-1 実行
+1 anaconda promptで仮想環境を作成  
+2 Requirementに書いたものを入れる  
+3 pycharmで新しいプロジェクト作成  
+4 venvの配下にソースをgit clone  
+5 settingsを開いてpythonインタプリタを先ほど作った仮想環境のものにする  
+6 実行  
  
 # Note
  
